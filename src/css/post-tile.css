@@ -1,0 +1,30 @@
+.post-tile {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 1rem;
+    margin: 3rem 0;
+}
+
+.post-tile__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.post-tile__thumbnail {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.post-tile__user {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .post-tile {
+        display: block;
+    }
+}
