@@ -1,23 +1,29 @@
 
 import Navbar from './component/navbar'
-import PostTile from './component/post-tile'
+import Home from './pages/home'
 
 import './App.css';
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
-  var posts = [
-    <PostTile></PostTile>,
-    <PostTile></PostTile>,
-    <PostTile></PostTile>,
-    <PostTile></PostTile>,
-    <PostTile></PostTile>,
-    <PostTile></PostTile>
-  ]
+  // var posts = [
+  //   <PostTile></PostTile>,
+  //   <PostTile></PostTile>,
+  //   <PostTile></PostTile>,
+  //   <PostTile></PostTile>,
+  //   <PostTile></PostTile>,
+  //   <PostTile></PostTile>
+  // ]
 
   return (
     <div>
       <Navbar></Navbar>
-      <div className="container">{posts}</div>
+      <BrowserRouter>
+          <Routes>
+              <Route exact path="/" element={<Home />} />
+          </Routes>
+      </BrowserRouter>
     </div>
   );
 }

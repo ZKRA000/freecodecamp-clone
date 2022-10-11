@@ -1,0 +1,20 @@
+.companies {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 2.5rem auto;
+}
+
+.companies img {
+    height: 50px;
+}
+
+#local-study img {
+    width: 100%;
+}
+
+.as-seen-in {
+    width: 100%;
+    background: #3b3b4f;
+    color:#fff;
+}
