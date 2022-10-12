@@ -1,5 +1,5 @@
-
 import Navbar from './component/navbar'
+import Footer from './component/footer'
 import Home from './pages/home'
 
 import './App.css';
@@ -7,23 +7,15 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  // var posts = [
-  //   <PostTile></PostTile>,
-  //   <PostTile></PostTile>,
-  //   <PostTile></PostTile>,
-  //   <PostTile></PostTile>,
-  //   <PostTile></PostTile>,
-  //   <PostTile></PostTile>
-  // ]
-
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
       <BrowserRouter>
           <Routes>
               <Route exact path="/" element={<Home />} />
           </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

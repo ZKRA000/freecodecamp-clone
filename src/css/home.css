@@ -17,4 +17,23 @@
     width: 100%;
     background: #3b3b4f;
     color:#fff;
+    padding: 2rem;
+}
+
+.alumni {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+.alumni > img {
+    width: 25%;
+    height: auto;
+}
+
+.alumni > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
 }

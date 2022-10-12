@@ -1,0 +1,26 @@
+footer {
+    background-color: #e4e4e4;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+footer > div {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.guide-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 1.5rem;
+    padding-left: 4rem;
+}
+
+.guide-list p {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.guide-list a {
+    color: #000;
+}
