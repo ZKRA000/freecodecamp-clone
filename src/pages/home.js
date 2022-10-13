@@ -21,8 +21,8 @@ function Home() {
     }
     
     return (
-        <React.Fragment>
-            <section className="container">
+        <main>
+            <section className="container mt-3">
                 <h1>Learn to code — for free.<br />Build projects.<br />Earn certifications.</h1>
 
                 <p>Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including:</p>
@@ -52,7 +52,7 @@ function Home() {
 
                 <div className='alumni'>
                     <img src={shawn} alt='' />
-                    <div>
+                    <div className='txt-cntr'>
                         <p><strong>Shawn Wang</strong> in Singapore</p>
                         <p>Software Engineer at <strong>Amazon</strong></p>
                         <p>"It's scary to change careers. I only gained confidence that I
@@ -64,7 +64,7 @@ function Home() {
 
                 <div className='alumni'>
                     <img src={sarah} alt='' />
-                    <div>
+                    <div className='txt-cntr'>
                         <p><strong>Sarah Chima</strong> in Nigeria</p>
                         <p>Software Engineer at <strong>ChatDesk</strong></p>
                         <p>"freeCodeCamp was the gateway to my career as a software developer. 
@@ -76,7 +76,7 @@ function Home() {
 
                 <div className='alumni'>
                     <img src={emma} alt='' />
-                    <div>
+                    <div className='txt-cntr'>
                         <p><strong>Emma Bostian</strong> in Sweden</p>
                         <p>Software Engineer at <strong>Spotify</strong></p>
                         <p>"I've always struggled with learning JavaScript. I've taken many 
@@ -91,7 +91,7 @@ function Home() {
             <section class='container'>
                 <a className='btn txt-cntr' href='/'>Get started (it's free)</a>
             </section>
-        </React.Fragment>
+        </main>
     )
 }
 
