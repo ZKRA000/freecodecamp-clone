@@ -61,9 +61,11 @@ p {
 /* button */
 .btn {
   display: block;
-  background-color: yellow;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 4px solid #ffac33;
   padding: 0.75rem 2rem;
   text-decoration: none;
+  color: #000;
 }
 
 /* underlined link */
