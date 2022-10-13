@@ -24,3 +24,10 @@ footer > div {
 .guide-list a {
     color: #000;
 }
+
+@media only screen and (max-width: 900px) {
+    footer > div,
+    .guide-list {
+        display: block;
+    }
+}

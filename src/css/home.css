@@ -9,15 +9,14 @@
     height: 50px;
 }
 
-#local-study img {
+.local-study img {
     width: 100%;
 }
 
 .as-seen-in {
-    width: 100%;
     background: #3b3b4f;
     color:#fff;
-    padding: 2rem;
+    padding: 2rem 15px;
 }
 
 .alumni {
@@ -27,8 +26,7 @@
 }
 
 .alumni > img {
-    width: 25%;
-    height: auto;
+    height: 100%;
 }
 
 .alumni > div {
@@ -36,4 +34,24 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .companies {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .alumni {
+        max-width: 350px;
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+
+    .alumni > img {
+        width: 100%;
+        height: auto;
+    }
 }

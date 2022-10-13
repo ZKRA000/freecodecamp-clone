@@ -16,7 +16,7 @@ import React from 'react'
 function Home() {
     var companiesIcon = function() {
         return [apple, google, microsoft, amazon, spotify].map((v, i) => {
-            return <img src={v} key={i + 'companiesIcon'} alt='' />
+            return <div className="txt-cntr"><img src={v} key={i + 'companiesIcon'} alt='' /></div>
         })
     }
     
@@ -33,7 +33,7 @@ function Home() {
 
                 <a className='btn txt-cntr' href='/'>Get started (it's free)</a>
                 
-                <div id='local-study' className='txt-cntr mt-3'>
+                <div className='local-study txt-cntr mt-3'>
                     <img src={local_study} alt='' />
                     <h3>freeCodeCamp students at a local study group in South Korea.</h3>
                 </div>
