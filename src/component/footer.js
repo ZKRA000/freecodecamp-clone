@@ -8,7 +8,7 @@ function Footer() {
                     <p>freeCodeCamp is a donor-supported tax-exempt 501(c)(3) nonprofit organization (United States Federal Tax Identification Number: 82-0779546)</p>
                     <p>Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.</p>
                     <p>Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
-                    <p><strong>You can <a href='/' className='url'>make a tax-deductible donation here.</a></strong></p>
+                    <p><strong>You can <a href='/' className='lnd'>make a tax-deductible donation here.</a></strong></p>
                 </div>
                 <div className='guide-list'>
                     <p><strong>Trending Guides</strong></p>

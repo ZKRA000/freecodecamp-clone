@@ -1,16 +1,16 @@
-import '../css/navbar.css'
+import '../css/header.css'
 import logo from '../img/logo.svg';
 
-function Navbar() {
+function Header() {
     return (
-    <div className="navbar">
+    <header className="header">
         <div>
             <input placeholder='Search 9,000+ tutorials' />
         </div>
         <img src={logo} height='20' alt='' />
         <a href='/'>Forum</a>
-    </div>
+    </header>
     ) 
 }
 
-export default Navbar
+export default Header

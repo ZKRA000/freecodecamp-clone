@@ -31,24 +31,24 @@ function Home() {
                     {companiesIcon()}
                 </div>
 
-                <a className='button-primary h2 text-center' href='/'>Get started (it's free)</a>
+                <a className='btn txt-cntr' href='/'>Get started (it's free)</a>
                 
-                <div id='local-study' className='text-center mt-3'>
+                <div id='local-study' className='txt-cntr mt-3'>
                     <img src={local_study} alt='' />
-                    <h4>freeCodeCamp students at a local study group in South Korea.</h4>
+                    <h3>freeCodeCamp students at a local study group in South Korea.</h3>
                 </div>
             </section>
             
 
-            <section className='as-seen-in text-center'>
+            <section className='as-seen-in txt-cntr'>
                 <div className='container'>
                     <h1>As seen in:</h1>
                     <img src={as_seen_in} alt='' />
                 </div>
             </section>
 
-            <section className='container-large text-center'>
-                <h2>Here is what our alumni say about freeCodeCamp:</h2>
+            <section className='container-large'>
+                <h2 className='txt-cntr'>Here is what our alumni say about freeCodeCamp:</h2>
 
                 <div className='alumni'>
                     <img src={shawn} alt='' />
@@ -89,7 +89,7 @@ function Home() {
             </section>
 
             <section class='container'>
-                <a className='button-primary h2 text-center' href='/'>Get started (it's free)</a>
+                <a className='btn txt-cntr' href='/'>Get started (it's free)</a>
             </section>
         </React.Fragment>
     )
