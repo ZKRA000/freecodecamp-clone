@@ -7,13 +7,13 @@ footer {
 footer > div {
     display: grid;
     grid-template-columns: 40% 1fr;
+    grid-gap: 50px;
 }
 
 .guide-list {
     display: grid;
     grid-template-columns: repeat(3, auto);
     column-gap: 1.5rem;
-    padding-left: 4rem;
 }
 
 .guide-list p {
