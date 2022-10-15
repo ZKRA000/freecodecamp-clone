@@ -1,6 +1,7 @@
 .post-tile {
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 35% auto;
+    align-items: center;
     grid-gap: 1rem;
     margin: 3rem 0;
 }
@@ -13,7 +14,7 @@
 
 .post-tile__thumbnail {
     width: 100%;
-    height: 175px;
+    height: 100%;
     object-fit: cover;
 }
 
